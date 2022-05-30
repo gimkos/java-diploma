@@ -105,7 +105,7 @@ public class Menu extends MouseAdapter{
 			g.drawString("HELP", BreakOutGame.WIDTH/2-63, 150);
 			int newline = g.getFont().getSize() + 5 ;
 			
-			String[] strings = {"MOVMENT", "       A D"};
+			String[] strings = {"MOVEMENT", "       A D"};
 			
 			int y = 200;
 			

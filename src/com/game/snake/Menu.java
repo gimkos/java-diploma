@@ -104,7 +104,7 @@ public class Menu extends MouseAdapter{
 			g.drawString("HELP", SnakeGame.WIDTH/2-60, 150);
 			int newline = g.getFont().getSize() + 5 ;
 			
-			String[] strings = {"MOVMENT", "   W A S D"};
+			String[] strings = {"MOVEMENT", "   W A S D"};
 			
 			int y = 200;
 			

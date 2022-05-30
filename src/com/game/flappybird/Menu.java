@@ -146,7 +146,7 @@ public class Menu extends MouseAdapter{
 			g2d.setPaint(Color.WHITE);
 			int newline = g2d.getFont().getSize() + 5 ;
 			
-			String[] strings = {"MOVMENT", "    SPACE"};
+			String[] strings = {"MOVEMENT", "    SPACE"};
 			
 			int y = 200;
 			

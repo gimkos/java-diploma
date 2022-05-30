@@ -61,6 +61,10 @@ public class Snake extends GameObject{
 		if(dirX != 0 || dirY != 0) collision();
 		
 		if(appleSpawned) {
+			score = 40;
+		}
+		
+		if(score != 5) {
 			appleSpawned = false;
 			if(timerReach()) {
 				score = 5;

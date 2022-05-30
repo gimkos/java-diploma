@@ -114,14 +114,16 @@ public class FlappyBirdGame extends Canvas implements Runnable{
 		BufferedImage background = GraphicsLoader.loadGraphics("flappybird/background.png");
 		g.drawImage(background, 0, 0, WIDTH, HEIGHT, null);
 		
-		ground.render(g);
 		
 		if(gameState != STATE.Help) handler.render(g);
 		
 		if(gameState == STATE.Game) hud.render(g);
+
+		ground.render(g);
 		
 		menu.render(g);
 
+		
 		g.dispose();
 		bs.show();
 	}
